@@ -1,0 +1,27 @@
+/* Common Styles */
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 0% 33%;
+}
+.bg-1{
+    z-index: 0;
+}
+.bg-2{
+    position: absolute;
+    bottom: 0; left: 0;
+    z-index: 10;
+}
+.bg-3{
+    object-fit: cover;
+}
